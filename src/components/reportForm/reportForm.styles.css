@@ -1,0 +1,82 @@
+input,
+label {
+  display: block;
+}
+
+textarea {
+  font-size: 16px;
+  width: 100%;
+  resize: none;
+  padding: 8px;
+  margin-bottom: 64px;
+}
+
+.form__email {
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid #000000;
+  outline: none;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.form__email:focus {
+  border-bottom-width: 2px;
+}
+
+.form__label {
+  font-size: 15px;
+  color: #089bab;
+  padding-bottom: 10px;
+}
+
+.form__submit-btn {
+  color: #ffffff;
+  background-color: #089bab;
+  border: none;
+  border-radius: 10px;
+  padding: 16px 70px;
+  margin-left: 12px;
+  transition: all 0.2s ease-in-out;
+}
+
+.form__submit-btn:hover {
+  background-color: #078593;
+  cursor: pointer;
+}
+
+.form__no-submit-allowed {
+  color: #ffffff;
+  background-color: #089bab;
+  border: none;
+  border-radius: 10px;
+  padding: 16px 70px;
+  margin-left: 12px;
+}
+
+.form__cancel-btn {
+  color: #000000;
+  background-color: #e7e7e8;
+  border: none;
+  border-radius: 10px;
+  padding: 6px 50px;
+  margin-right: 12px;
+  transition: all 0.2s ease-in-out;
+}
+
+.form__cancel-btn:hover {
+  background-color: #cfcfd0;
+  cursor: pointer;
+}
+
+.form__button-group {
+  display: flex;
+  justify-content: center;
+}
+
+.form__invalid-email {
+  font-size: 13px;
+  padding-top: 10px;
+  color: #d9534f;
+  text-align: center;
+}
